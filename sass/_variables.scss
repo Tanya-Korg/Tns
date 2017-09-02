@@ -1,0 +1,18 @@
+$primary-color: #f26522;
+$second-primary-color: #323339;
+$header-color1: #fff;
+$paragr-color1: #fff;
+$header-color2: #3a4d69;
+$paragr-color2: #a7b3b9;
+$paragr-color3: #83969f;
+
+%header-fonts{
+font-family: "Raleway";
+font-size: 2.188em;
+text-transform: uppercase;
+color: $header-color1;}
+%paragr-fonts{
+    font-family: "OpenSans";
+    font-size: 0.875em;
+    color: $paragr-color1;
+}

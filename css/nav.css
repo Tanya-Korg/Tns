@@ -1,0 +1,38 @@
+	.header__nav{
+/*
+	position: absolute;
+			left: 0;
+			top: 0;
+			margin-top: 0;
+*/
+		}
+		.header__nav{
+			background-color: dimgrey;
+			  -webkit-transform: perspective(600px) rotateX(-90deg);
+			          transform: perspective(600px) rotateX(-90deg);
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+		}
+/*		изменения*/
+		 .sec1__header::before{
+        content: "";
+        background: url(../img/nav.jpg) top center #ddd;  
+        display: block;  
+        height: 69px;  
+        width: 90px; 
+			 position: absolute;
+			left: 0;
+			top: 0;
+			margin-top: 0;
+    }
+		.sec1__header:hover .header__nav{
+			display: block;
+			 -webkit-transform: perspective(600px) rotateX(0deg);
+			         transform: perspective(600px) rotateX(0deg);
+		}
+		.header__link{
+			display: block;
+		}
+		
